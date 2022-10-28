@@ -112,9 +112,6 @@ private:
      */
     bool fixedAngle;
 
-    //list of entity types supported by current action
-    const EntityTypeList enTypeList = EntityTypeList{RS2::EntityLine, RS2::EntityArc, RS2::EntityCircle,RS2::EntityEllipse};
-
     void unhighlightEntity();
 };
 
